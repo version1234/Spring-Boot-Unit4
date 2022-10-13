@@ -7,7 +7,10 @@ import com.devmountain.noteApp.dtos.UserDto;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import javax.persistence.*;
+import javax.transaction.Transactional;
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 @Entity
@@ -69,5 +72,6 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
+
 
 }
