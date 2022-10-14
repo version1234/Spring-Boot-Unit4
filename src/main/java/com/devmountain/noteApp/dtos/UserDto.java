@@ -29,4 +29,9 @@ public class UserDto implements Serializable {
             this.password = user.getPassword();
         }
     }
+//    public UserDto (Long id1, String username1, String password1){
+//        this.id = id1;
+//        this.username = username1;
+//        this.password = password1;
+//    }
 }
