@@ -2,9 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/home.css" type="text/css">
 </head>
 <body>
+<h1>Home</h1>
+<h2>Welcome To the Note App</h2>
+<a class="btn-danger navbar-btn" href="./login.html">Logout</a>
+<div class="container" id="home-container">
+    <div id="note-from-container">
+        <form id="note-form">
+            <div class="form-group">
+                <textarea class="form-control" id="note-input" placeholder="Add your note..." rows="5"></textarea>
+            </div>
+            <button id="submit-button" type="submit" class="btn btn-primary mt-1">Submit</button>
+        </form>
+        <div id="note-container" class="container-fluid">
+        </div>
+    </div>
+</div>
+
+<div class="model fade" id="note-edit-modal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="note-edit-modal-title" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id=note-edit-modal-title">Edit Your note</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="model" aria-lable="Close"></button>
+        </div>
+        <div class="modal-body d-flex">
+            <textarea class="form-control" rows="5" id="note-body"></textarea>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn-secondary" data-bas-dismiss="modal">Close</button>
+            <button type="button" id="update-note-button" class="btn btn-primary" data-bs-dismiss="modal">Save</button>
+        </div>
+    </div>
+</div>
+</div>
+
+<script src="./javascript/home.js" type="application/javascript"></script>
 
 </body>
 </html>
+
