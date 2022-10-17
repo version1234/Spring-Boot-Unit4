@@ -1,3 +1,6 @@
+
+// This repository is used to connect the data base and perform all the CRUD actions
+
 package com.devmountain.noteApp.repositories;
 
 import com.devmountain.noteApp.entities.User;

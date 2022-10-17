@@ -14,6 +14,8 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+
+// These services are used to execute CRUD SQL call using transactional and methods have been Implemented here
 @Service
 public class NoteServiceImpl implements NoteService {
 

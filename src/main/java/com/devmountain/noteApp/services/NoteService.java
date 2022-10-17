@@ -7,6 +7,8 @@ import java.util.List;
 import java.util.Optional;
 
 public interface NoteService {
+
+    // These services are used to execute CRUD SQL call using transactional and methods have been defined here
     @Transactional
     void addNote(NoteDto noteDto, Long userId);
 

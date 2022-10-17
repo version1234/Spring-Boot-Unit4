@@ -1,5 +1,5 @@
 
-
+// Here User table structure/definition defined
 
 package com.devmountain.noteApp.entities;
 

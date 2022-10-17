@@ -12,6 +12,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+
+// These services are used to execute CRUD SQL call using transactional and methods have been implemented  here
 @Service
 public class UserServiceImpl implements UserService {
     @Autowired

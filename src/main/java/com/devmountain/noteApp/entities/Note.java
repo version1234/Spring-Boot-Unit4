@@ -1,3 +1,8 @@
+
+
+
+// Here Note table structure/definition defined
+
 package com.devmountain.noteApp.entities;
 
 
@@ -11,8 +16,8 @@ import javax.persistence.*;
 @Entity
 @Table(name = "Notes")
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
+@AllArgsConstructor // to call the Note table with all arguments/variables
+@NoArgsConstructor // to call the Note table without any arguments/variables
 
 public class Note {
     @Id

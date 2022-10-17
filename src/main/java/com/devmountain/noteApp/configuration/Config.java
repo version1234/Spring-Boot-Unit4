@@ -1,3 +1,8 @@
+
+
+// Here Class configuration is used to encode the password
+
+
 package com.devmountain.noteApp.configuration;
 
 import org.springframework.context.annotation.Bean;
